@@ -1,0 +1,7 @@
+services:
+  web:
+    image: agopinai30/custom-nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx-data:/var/opt/nginx
